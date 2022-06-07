@@ -6,15 +6,15 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
-import uk.tw.energy.domain.ElectricityReading;
-import uk.tw.energy.domain.PricePlan;
-import uk.tw.energy.service.generator.ElectricityReadingsGenerator;
+import uk.tw.energy.pricePlan.PricePlan;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import uk.tw.energy.electricityReading.ElectricityReading;
+import uk.tw.energy.electricityReading.ElectricityReadingsGenerator;
 
 import static java.util.Collections.emptyList;
 
